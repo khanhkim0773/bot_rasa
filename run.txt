@@ -1,5 +1,0 @@
-rasa train
-rasa run actions
-rasa run --enable-api --cors "*" --port 5005
-ngrok authtoken 28dqSBR48KOIwn9RfL88nJaVVSY_3sng7FhbNRaruWcM2voZe
-ngrok http 5005
