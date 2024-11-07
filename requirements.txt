@@ -1,4 +1,4 @@
-python_version: 3.8.10
+python_version== 3.8.10
 rasa==3.5.17 
 rasa-sdk==3.5.1    # Phiên bản của Rasa SDK phù hợp
 PyYAML==6.0.1       # Dùng cho việc xử lý file YAML
