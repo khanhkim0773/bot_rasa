@@ -351,7 +351,7 @@
             chatHistoryDiv.scrollTop = chatHistoryDiv.scrollHeight;
 
             // Gọi API Rasa (giả định sử dụng fetch)
-            fetch("https://1baf-183-80-142-98.ngrok-free.app/webhooks/rest/webhook", {
+            fetch("http://localhost:5005/webhooks/rest/webhook", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
